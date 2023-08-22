@@ -361,15 +361,59 @@ transition: .2s;
 
 
 
-/* 
+/* FOOTER */
 
+
+.footer-distributed{
+	background:#F2F2F2;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+ 
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline;
+	vertical-align: top;
+}
+
+.footer-left a{
+  text-decoration:none;
+  
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+
+/* 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
   font-family: Open Sans;
-}
+} */
 
-section {
+/* section {
   width: 100%;
   display: inline-block;
   background: #333;
@@ -395,7 +439,7 @@ section {
 .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
-}
+} */
 
 /* Footer left */
 
